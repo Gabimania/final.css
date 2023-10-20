@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 7%;
+  background-image: url(/web.html/comida.jpg);
+  display: flex;
+  justify-content: center;
+}
+
+#header-div {
+  background-color: rgba(255, 0, 0, 0.3);
+  color: white;
+}
+
+nav {
+  padding: 10px;
+  background-color: brown;
+}
+
+main {
+  padding: 10px;
+  background-color: bisque;
+}
+
+#description {
+  margin: 10px 10px;
+}
+
+h3 {
+  color: brown;
+  text-align: center;
+}
+
+ul {
+  list-style-image: url("/web.html/foodicon.png");
+  padding: 10px;
+  margin-left:20px;
+}
+
+#takeaway_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#takeaway_container a {
+    display:flex;
+    align-items: center;
+  text-decoration: none;
+  color: brown;
+}
+#takeaway_container img{
+    margin:10px
+}
+
+
+footer {
+  padding: 10px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    header {
+        padding: 5%;
+        background-image: url(/web.html/header_media.jpg);
+        display: flex;
+        justify-content: center;
+      }
+}
+
+@media screen and (max-width: 767px){
+    header {
+        padding: 2%;
+        background-image: url(/web.html/header_peque.png);
+        display: flex;
+        justify-content: center;
+      }
+}

@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: bisque;
+}
+
+header {
+  padding: 100px;
+  background-image: url(/web.html/comida.jpg);
+  display: flex;
+  justify-content: center;
+}
+
+#header-div {
+  background-color: rgba(255, 0, 0, 0.366);
+  color: white;
+}
+
+#header-div h2{
+  color:white;
+}
+
+header a {
+  text-decoration: none;
+}
+
+nav {
+  padding: 10px;
+  background-color: brown;
+}
+
+h2 {
+  color: brown;
+  text-align: center;
+}
+
+.promociones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.promocion{
+  background-color: beige;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+img:hover{
+  transform: scale(1.2);
+}
+
+footer {
+  padding: 10px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+ .promociones{grid-template-columns: repeat(2, 1fr);}
+}
+
+@media screen and (max-width: 767px){
+  .promociones{grid-template-columns: repeat(1, 1fr);}
+    }

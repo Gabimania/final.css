@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url(/web.html/background_login.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: #CCC;
+  
+}
+
+form{
+  display:flex;
+  flex-direction: column;
+}
+
+label {
+    display:block;
+    margin-bottom:10px;
+}
+
+input {
+    display:block;
+    margin-bottom:20px;
+    width: 100%;
+    padding: 5px;
+    border-radius:2px;
+    
+}
+
+button{
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+#register{
+  display:flex;
+  justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color:red;
+}
